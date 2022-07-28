@@ -74,39 +74,3 @@ const  stopScroll = function (){
   body.style.margin = "0";
 }
 
-// Theme switching:
-let themeValue = localStorage.getItem("theme");
-if (themeValue == null){
-  setTheme("light");
-}else{
-  setTheme(themeValue);
-}
-
-
-const theme_circle = document.getElementsByClassName("circle");
-
-
-for (var i = 0; i < theme_circle.length; i++) {
-  theme_circle[i].addEventListener("click", function() {
-    let theme = this.dataset.theme;
-    // console.log("Clicked on", theme);
-    setTheme(theme);
-  });
-}
-
-function setTheme(theme){
-  if (theme == "light") {
-    document.getElementById("theme-switcher").href = 'light.css'
-  }
-  if (theme == "dark") {
-    document.getElementById("theme-switcher").href = 'dark.css'
-  }
-  if (theme == "purple") {
-    document.getElementById("theme-switcher").href = 'purple.css'
-  }
-  if (theme == "blue") {
-    document.getElementById("theme-switcher").href = 'blue.css'
-  }
-
-  localStorage.setItem("theme", theme);
-}
