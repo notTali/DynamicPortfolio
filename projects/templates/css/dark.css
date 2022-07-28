@@ -1,0 +1,41 @@
+:root{
+    --background: #000000;
+    --background-odd: #101113;
+    --background-even: var(--background-odd);
+    
+    --home-bg-color: rgba(0, 0, 0, 0.5);
+    
+    --onBackground: #c4c70b;
+    --onSurface:var(--secondary);
+    --onPrimary:var(--secondary);
+    --onSecondary:var(--surface);
+    --light-text: #8ea3aa;
+    --site-max-width: 1100px;
+    --particles-color1: #2ca5eb;
+    --particles-color2: #f02054;
+
+    --home-button-color: rgb(23, 55, 65);
+    --first-border-line: rgb(0, 0, 0);
+    --second-border-line: #a7b5c7;
+
+
+    --form-label-color: #c6d0d3;
+    --white-text: #c6d0d3;
+    --primary: #8ea3aa;
+    --secondary: #7c81c9;
+    --nav-items-color: #8ea3aa;
+    --social-link-color: rgb(5, 81, 133);
+    --body-text-color: rgb(161, 159, 159);
+    --card-bg-color: #202122;
+    --card-shadow-color: rgb(19, 20, 20);
+    --thinCard--btn--color: rgb(187, 46, 105);
+
+    --w-color: rgb(97, 201, 94);
+    --r-color: rgb(90, 72, 253);
+    --b-color: #aa0a0a;
+    --not-color: #fff;
+    --h1-color: #8ea3aa;
+}
+
+
+
