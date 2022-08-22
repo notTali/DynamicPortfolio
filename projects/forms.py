@@ -1,5 +1,3 @@
-from dataclasses import fields
-from turtle import title
 from django.forms import ModelForm
 from .models import Project
 
@@ -9,3 +7,7 @@ class ProjectForm(ModelForm):
         fields = [
             'title', 'description', 'tags', 'image'
         ]
+        # labels = {
+        #     'title':, 'description', 'tags', 'image'
+        # }
+
