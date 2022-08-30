@@ -1,1 +1,2 @@
 # DynamicPortfolio
+## Talifhani Mulaudzi
